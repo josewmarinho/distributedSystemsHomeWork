@@ -49,11 +49,11 @@ export function Body() {
       <img src={imgTemp} alt="temp"/>
       <div className={styles.separator}>
         <p className={styles.temp}>Temperatura Instantânea:</p>
-        <p className={styles.result}>{temp} C</p>
+        <p className={styles.result}>{temp}</p>
       </div>
       <div className={styles.separator}>
         <p className={styles.temp}>Umidade Relativa Instantânea:</p>
-        <p className={styles.result}>{umi} C</p>
+        <p className={styles.result}>{umi}</p>
       </div>
       
 
