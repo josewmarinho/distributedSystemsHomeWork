@@ -42,7 +42,7 @@ export function Body() {
             placeholder="Digite seu CEP" onChange={(e) => {setCep(e.target.value)}} />
     </div>
     <button className={styles.button} onClick={submitCep}>
-      <p>Pesquisarr</p>
+      <p>Pesquisar</p>
     </button>
     <div className={styles.containerBody}>
       <p className={styles.city}>Cidade: {city}</p>
