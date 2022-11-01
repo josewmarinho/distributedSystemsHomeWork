@@ -38,7 +38,7 @@ export function Body() {
       <header className={styles.title}>sistemas distribuídos</header>
     </div>
     <div className={styles.containerInput}>
-      <input className={styles.input} type="number" id="cep" value={cep}
+      <input className={styles.input} type="text" id="cep" value={cep}
             placeholder="Digite seu CEP" onChange={(e) => {setCep(e.target.value)}} />
     </div>
     <button className={styles.button} onClick={submitCep}>
